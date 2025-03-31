@@ -45,7 +45,8 @@
               ]
           }
       }
-  }
+  },
+  "postStartCommand": "pip install -r requirements.txt"
   // Uncomment the next section if you are using WSL2 and SSH with git. This will allow your private key to be
   // accessed by the SSH client within the dev container for connection to the remote repository. Once this
   // section is uncommented reload the dev container. Once the dev container is reloaded re-comment this section.
